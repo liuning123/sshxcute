@@ -1,0 +1,37 @@
+
+=============== [2017/04/10 14:45:29, net.neoremind.sshxcute.core.SSHExec.<clinit>:82] ====================
+
+[14:45:29] INFO:    SSHExec initializing ...
+[14:45:29] INFO:    Session initialized and associated with user credential 1234
+[14:45:29] INFO:    SSHExec initialized successfully
+[14:45:29] INFO:    SSHExec trying to connect root@192.168.3.139
+[14:45:29] INFO:    SSH connection established
+[14:45:29] INFO:    Command is serive 3proxy status
+[14:45:29] INFO:    Connection channel established succesfully
+[14:45:29] INFO:    Start to run command
+[14:45:29] INFO:    Connection channel closed
+[14:45:29] INFO:    Check if exec success or not ... 
+[14:45:29] INFO:    Execution failed while executing command: serive 3proxy status
+[14:45:29] INFO:    Error message: bash: serive: command not found
+[14:45:29] INFO:    Now wait 5 seconds to begin next task ...
+[14:45:34] INFO:    Connection channel disconnect
+[14:45:34] INFO:    SSH connection shutdown
+
+=============== [2017/04/10 14:46:10, net.neoremind.sshxcute.core.SSHExec.<clinit>:82] ====================
+
+[14:46:10] INFO:    SSHExec initializing ...
+[14:46:10] INFO:    Session initialized and associated with user credential 1234
+[14:46:10] INFO:    SSHExec initialized successfully
+[14:46:10] INFO:    SSHExec trying to connect root@192.168.3.139
+[14:46:10] INFO:    SSH connection established
+[14:46:10] INFO:    Command is service 3proxy status
+[14:46:10] INFO:    Connection channel established succesfully
+[14:46:10] INFO:    Start to run command
+[14:46:10] INFO:    3proxy (pid 10533) is running...
+
+[14:46:10] INFO:    Connection channel closed
+[14:46:10] INFO:    Check if exec success or not ... 
+[14:46:10] INFO:    Execute successfully for command: service 3proxy status
+[14:46:10] INFO:    Now wait 5 seconds to begin next task ...
+[14:46:15] INFO:    Connection channel disconnect
+[14:46:15] INFO:    SSH connection shutdown
